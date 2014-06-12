@@ -22,7 +22,7 @@ html, body {
 	color: #0f2350;
 	font-size: 30px;
 	font-family: 'M+2cL';
-	text-shadow: 0px 0px 1px #0f2350;
+	text-shadow: 0px 0px 0.5px #0f2350;
 }
 
 header {
