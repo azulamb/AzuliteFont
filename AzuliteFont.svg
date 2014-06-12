@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="1000"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="AzuliteFont.svg">
+  <defs
+     id="defs4">
+    <font
+       horiz-adv-x="1000"
+       id="font3751"
+       inkscape:label="フォント 1">
+      <font-face
+         units-per-em="1000"
+         id="font-face3753"
+         font-family="SVGFont 1" />
+      <missing-glyph
+         d="m 40,960 0,-920 920,0 0,920 z M 80,920 891.71875,920 80,108.28125 z M 920,891.71875 920,80 108.28125,80 z"
+         id="missing-glyph3755" />
+      <glyph
+         glyph-name="Tab"
+         id="glyph3945"
+         unicode=" " />
+      <glyph
+         glyph-name="Space"
+         id="glyph3757"
+         unicode=" " />
+      <glyph
+         glyph-name="!"
+         id="glyph3759"
+         unicode="!" />
+      <glyph
+         glyph-name="#"
+         id="glyph3761"
+         unicode="#" />
+      <glyph
+         glyph-name="$"
+         id="glyph3763"
+         unicode="$" />
+      <glyph
+         glyph-name="%"
+         id="glyph3765"
+         unicode="%" />
+      <glyph
+         glyph-name="&amp;"
+         id="glyph3767"
+         unicode="&amp;" />
+      <glyph
+         glyph-name="'"
+         id="glyph3769"
+         unicode="'" />
+      <glyph
+         glyph-name="("
+         id="glyph3771"
+         unicode="(" />
+      <glyph
+         glyph-name=")"
+         id="glyph3773"
+         unicode=")" />
+      <glyph
+         glyph-name="*"
+         id="glyph3775"
+         unicode="*" />
+      <glyph
+         glyph-name="+"
+         id="glyph3777"
+         unicode="+" />
+      <glyph
+         glyph-name=","
+         id="glyph3779"
+         unicode="," />
+      <glyph
+         glyph-name="-"
+         id="glyph3781"
+         unicode="-" />
+      <glyph
+         glyph-name="."
+         id="glyph3783"
+         unicode="." />
+      <glyph
+         glyph-name="/"
+         id="glyph3785"
+         unicode="/" />
+      <glyph
+         glyph-name="0"
+         id="glyph3787"
+         unicode="0" />
+      <glyph
+         glyph-name="1"
+         id="glyph3789"
+         unicode="1" />
+      <glyph
+         glyph-name="2"
+         id="glyph3791"
+         unicode="2" />
+      <glyph
+         glyph-name="3"
+         id="glyph3793"
+         unicode="3" />
+      <glyph
+         glyph-name="4"
+         id="glyph3795"
+         unicode="4" />
+      <glyph
+         glyph-name="5"
+         id="glyph3797"
+         unicode="5" />
+      <glyph
+         glyph-name="6"
+         id="glyph3799"
+         unicode="6" />
+      <glyph
+         glyph-name="7"
+         id="glyph3801"
+         unicode="7" />
+      <glyph
+         glyph-name="8"
+         id="glyph3803"
+         unicode="8" />
+      <glyph
+         glyph-name="9"
+         id="glyph3805"
+         unicode="9" />
+      <glyph
+         glyph-name=":"
+         id="glyph3807"
+         unicode=":" />
+      <glyph
+         glyph-name=";"
+         id="glyph3809"
+         unicode=";" />
+      <glyph
+         glyph-name="&lt;"
+         id="glyph3811"
+         unicode="&lt;"
+         d="m 101.62831,523.99998 c 265.58111,153.33335 531.16222,306.66669 796.74335,460 10e-6,-306.66665 2e-5,-613.33331 3e-5,-919.99996 C 632.79056,217.33334 367.20944,370.66666 101.62831,523.99998 z" />
+      <glyph
+         glyph-name="="
+         id="glyph3813"
+         unicode="=" />
+      <glyph
+         glyph-name="&gt;"
+         id="glyph3815"
+         unicode="&gt;"
+         d="m 898.37169,523.99998 c -265.58111,153.33335 -531.16222,306.66669 -796.74335,460 -10e-6,-306.66665 -2e-5,-613.33331 -3e-5,-919.99996 265.58113,153.33332 531.16225,306.66664 796.74338,459.99996 z" />
+      <glyph
+         glyph-name="?"
+         id="glyph3817"
+         unicode="?" />
+      <glyph
+         glyph-name="@"
+         id="glyph3819"
+         unicode="@" />
+      <glyph
+         glyph-name="A"
+         id="glyph3821"
+         unicode="A" />
+      <glyph
+         glyph-name="B"
+         id="glyph3823"
+         unicode="B" />
+      <glyph
+         glyph-name="C"
+         id="glyph3825"
+         unicode="C" />
+      <glyph
+         glyph-name="D"
+         id="glyph3827"
+         unicode="D" />
+      <glyph
+         glyph-name="E"
+         id="glyph3829"
+         unicode="E" />
+      <glyph
+         glyph-name="F"
+         id="glyph3831"
+         unicode="F" />
+      <glyph
+         glyph-name="G"
+         id="glyph3833"
+         unicode="G" />
+      <glyph
+         glyph-name="H"
+         id="glyph3835"
+         unicode="H" />
+      <glyph
+         glyph-name="I"
+         id="glyph3837"
+         unicode="I" />
+      <glyph
+         glyph-name="J"
+         id="glyph3839"
+         unicode="J" />
+      <glyph
+         glyph-name="K"
+         id="glyph3841"
+         unicode="K" />
+      <glyph
+         glyph-name="L"
+         id="glyph3843"
+         unicode="L" />
+      <glyph
+         glyph-name="M"
+         id="glyph3845"
+         unicode="M" />
+      <glyph
+         glyph-name="N"
+         id="glyph3847"
+         unicode="N" />
+      <glyph
+         glyph-name="O"
+         id="glyph3849"
+         unicode="O" />
+      <glyph
+         glyph-name="P"
+         id="glyph3851"
+         unicode="P" />
+      <glyph
+         glyph-name="Q"
+         id="glyph3853"
+         unicode="Q" />
+      <glyph
+         glyph-name="R"
+         id="glyph3855"
+         unicode="R" />
+      <glyph
+         glyph-name="S"
+         id="glyph3857"
+         unicode="S" />
+      <glyph
+         glyph-name="T"
+         id="glyph3859"
+         unicode="T" />
+      <glyph
+         glyph-name="U"
+         id="glyph3861"
+         unicode="U" />
+      <glyph
+         glyph-name="V"
+         id="glyph3863"
+         unicode="V" />
+      <glyph
+         glyph-name="W"
+         id="glyph3865"
+         unicode="W" />
+      <glyph
+         glyph-name="X"
+         id="glyph3867"
+         unicode="X" />
+      <glyph
+         glyph-name="Y"
+         id="glyph3869"
+         unicode="Y" />
+      <glyph
+         glyph-name="Z"
+         id="glyph3871"
+         unicode="Z" />
+      <glyph
+         glyph-name="["
+         id="glyph3873"
+         unicode="[" />
+      <glyph
+         glyph-name="\"
+         id="glyph3875"
+         unicode="\" />
+      <glyph
+         glyph-name="]"
+         id="glyph3877"
+         unicode="]" />
+      <glyph
+         glyph-name="^"
+         id="glyph3879"
+         unicode="^"
+         d="m 500.00002,922.37168 c -153.33335,-265.58111 -306.66668,-531.16223 -460,-796.74334 306.66665,-10e-6 613.33331,-10e-6 919.99996,-2e-5 C 806.66667,391.20943 653.33335,656.79056 500.00002,922.37168 z" />
+      <glyph
+         glyph-name="_"
+         id="glyph3881"
+         unicode="_" />
+      <glyph
+         glyph-name="`"
+         id="glyph3883"
+         unicode="`" />
+      <glyph
+         glyph-name="a"
+         id="glyph3885"
+         unicode="a" />
+      <glyph
+         glyph-name="b"
+         id="glyph3887"
+         unicode="b" />
+      <glyph
+         glyph-name="c"
+         id="glyph3889"
+         unicode="c" />
+      <glyph
+         glyph-name="d"
+         id="glyph3891"
+         unicode="d" />
+      <glyph
+         glyph-name="e"
+         id="glyph3893"
+         unicode="e" />
+      <glyph
+         glyph-name="f"
+         id="glyph3895"
+         unicode="f" />
+      <glyph
+         glyph-name="g"
+         id="glyph3897"
+         unicode="g" />
+      <glyph
+         glyph-name="h"
+         id="glyph3899"
+         unicode="h" />
+      <glyph
+         glyph-name="i"
+         id="glyph3901"
+         unicode="i" />
+      <glyph
+         glyph-name="j"
+         id="glyph3903"
+         unicode="j" />
+      <glyph
+         glyph-name="k"
+         id="glyph3905"
+         unicode="k" />
+      <glyph
+         glyph-name="l"
+         id="glyph3907"
+         unicode="l"
+         d="m 80,944 0,-160 160,0 0,160 -160,0 z m 240,0 0,-160 600,0 0,160 -600,0 z M 80,604 l 0,-160 160,0 0,160 -160,0 z m 240,0 0,-160 600,0 0,160 -600,0 z M 80,264 l 0,-160 160,0 0,160 -160,0 z m 240,0 0,-160 600,0 0,160 -600,0 z" />
+      <glyph
+         glyph-name="m"
+         id="glyph3909"
+         unicode="m"
+         d="m 80,944 0,-160 840,0 0,160 -840,0 z m 0,-340 0,-160 840,0 0,160 -840,0 z m 0,-340 0,-160 840,0 0,160 -840,0 z" />
+      <glyph
+         glyph-name="n"
+         id="glyph3911"
+         unicode="n" />
+      <glyph
+         glyph-name="o"
+         id="glyph3913"
+         unicode="o" />
+      <glyph
+         glyph-name="p"
+         id="glyph3915"
+         unicode="p" />
+      <glyph
+         glyph-name="q"
+         id="glyph3917"
+         unicode="q" />
+      <glyph
+         glyph-name="r"
+         id="glyph3919"
+         unicode="r" />
+      <glyph
+         glyph-name="s"
+         id="glyph3921"
+         unicode="s" />
+      <glyph
+         glyph-name="t"
+         id="glyph3923"
+         unicode="t" />
+      <glyph
+         glyph-name="u"
+         id="glyph3925"
+         unicode="u" />
+      <glyph
+         glyph-name="v"
+         id="glyph3927"
+         unicode="v"
+         d="M 500.00003,125.62831 C 346.66668,391.20942 193.33334,656.79054 40.000015,922.37166 c 306.666655,10e-6 613.333325,2e-5 919.999975,3e-5 C 806.66666,656.79057 653.33334,391.20943 500.00003,125.62831 z" />
+      <glyph
+         glyph-name="w"
+         id="glyph3929"
+         unicode="w" />
+      <glyph
+         glyph-name="x"
+         id="glyph3931"
+         unicode="x" />
+      <glyph
+         glyph-name="y"
+         id="glyph3933"
+         unicode="y" />
+      <glyph
+         glyph-name="z"
+         id="glyph3935"
+         unicode="z" />
+      <glyph
+         glyph-name="{"
+         id="glyph3937"
+         unicode="{" />
+      <glyph
+         glyph-name="|"
+         id="glyph3939"
+         unicode="|" />
+      <glyph
+         glyph-name="}"
+         id="glyph3941"
+         unicode="}" />
+      <glyph
+         glyph-name="~"
+         id="glyph3943"
+         unicode="~" />
+    </font>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="856.79369"
+     inkscape:cy="324.13667"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer7"
+     showgrid="true"
+     inkscape:window-width="1522"
+     inkscape:window-height="871"
+     inkscape:window-x="1435"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2982"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="v"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 500.00003,898.37169 C 346.66668,632.79058 193.33334,367.20946 40.000015,101.62834 c 306.666655,-10e-6 613.333325,-2e-5 919.999975,-3e-5 C 806.66666,367.20943 653.33334,632.79057 500.00003,898.37169 z"
+       id="path3106"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="m"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 80,80 0,160 840,0 0,-160 -840,0 z m 0,340 0,160 840,0 0,-160 -840,0 z m 0,340 0,160 840,0 0,-160 -840,0 z"
+       id="rect3178"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="l"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 80,80 0,160 160,0 0,-160 -160,0 z m 240,0 0,160 600,0 0,-160 -600,0 z m -240,340 0,160 160,0 0,-160 -160,0 z m 240,0 0,160 600,0 0,-160 -600,0 z m -240,340 0,160 160,0 0,-160 -160,0 z m 240,0 0,160 600,0 0,-160 -600,0 z"
+       id="rect3178-8"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="^"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 500.00002,101.62832 c -153.33335,265.58111 -306.66668,531.16223 -460,796.74334 306.66665,10e-6 613.33331,10e-6 919.99996,2e-5 C 806.66667,632.79057 653.33335,367.20944 500.00002,101.62832 z"
+       id="path3106-4"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="&gt;"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 898.37169,500.00002 c -265.58111,-153.33335 -531.16222,-306.66669 -796.74335,-460 -10e-6,306.66665 -2e-5,613.33331 -3e-5,919.99996 C 367.20944,806.66666 632.79056,653.33334 898.37169,500.00002 z"
+       id="path3106-1-1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="&lt;"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 101.62831,500.00002 C 367.20942,346.66667 632.79053,193.33333 898.37166,40.000019 c 10e-6,306.666651 2e-5,613.333311 3e-5,919.999961 C 632.79056,806.66666 367.20944,653.33334 101.62831,500.00002 z"
+       id="path3106-1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:label="none"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-52.362168)"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 40,40 0,920 920,0 0,-920 z M 80,80 891.71875,80 80,891.71875 z M 920,108.28125 920,920 108.28125,920 z"
+       transform="translate(0,52.362168)"
+       id="rect3081"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccc" />
+  </g>
+</svg>
