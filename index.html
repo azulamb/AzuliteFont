@@ -1,238 +1,114 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.ico"/>
-		<link rel="icon" href="favicon.png" type="image/png"/>
-		<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png"/>
-		<title>AzuliteFont</title>
-		<link rel="stylesheet" href="style.css" />
-		<style></style>
-	</head>
-	<body>
+<head>
+	<meta charset="utf-8" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.ico"/>
+	<link rel="icon" href="favicon.png" type="image/png"/>
+	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png"/>
+	<title>AzuliteFont</title>
+	<link rel="stylesheet" href="style.css" />
+	<script>
+function change( cls )
+{ 
+	var elements = document.getElementsByClassName( cls );
+	var i;
+	for ( i = 0 ; i < elements.length ; ++i )
+	{
+		if ( elements[ i ].style.display == "none" ) {
+			elements[ i ].style.display = "block";
+		} else {
+			elements[ i ].style.display = "none";
+		}
+	}
+}
+function display( cls, val )
+{ 
+	var elements = document.getElementsByClassName( cls );
+	var i;
+	for ( i = 0 ; i < elements.length ; ++i )
+	{
+		elements[ i ].style.display = val;
+	}
+}
+function langchange()
+{ 
+	change( "en" );
+	change( "ja" )
+}
+function browserlang()
+{
+	try
+	{
+		return (navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2)
+	} catch(e)
+	{
+		return undefined;
+	}
+}
+window.onload = function init()
+{
+	var del = "ja";
+	if ( browserlang() == "ja" )
+	{
+		del = "en";
+	}
+	display( del, "none" );
+	display( del == "ja" ? "en" : "ja", "block" );
+}
+	</script>
+</head>
+<body>
 
-		<div>
-			<div>
+	<div class="main">
+		<header>
+			<h1><span>藍</span>Azulite Font</h1>
+			<a href="javascript:void(0);" onclick="langchange();" id="lang"><b class="en">日本語</b><b class="ja">English</b></a>
+		</header>
+
+		<article>
+
+			<div class="box">
+				<h2>What's Azulite Font</h2>
+				<p class="en">Azulite Font is icon font.</p>
+				<p class="ja">Azulite Fontはアイコンフォントです。</p>
+			</div>
+
+			<div class="box">
+				<h2>Get Azulite Font</h2>
+				<ul>
+					<li><a href="https://github.com/HirokiMiyaoka/AzuliteFont">GitHub</a></li>
+				</ul>
+			</div>
+
+			<div class="box">
+				<h2>Azulite Font table</h2>
 				<table>
-					<tr>
-						<td>Tab</td>
-						<td>Space</td>
-						<td>!</td>
-						<td>"</td>
-						<td>#</td>
-						<td>$</td>
-						<td>%</td>
-						<td>&</td>
-						<td>'</td>
-						<td>(</td>
-						<td>)</td>
-						<td>*</td>
-						<td>+</td>
-						<td>,</td>
-						<td>-</td>
-						<td>.</td>
-					</tr>
-					<tr class="azu">
-						<td>	</td>
-						<td> </td>
-						<td>!</td>
-						<td>"</td>
-						<td>#</td>
-						<td>$</td>
-						<td>%</td>
-						<td>&</td>
-						<td>'</td>
-						<td>(</td>
-						<td>)</td>
-						<td>*</td>
-						<td>+</td>
-						<td>,</td>
-						<td>-</td>
-						<td>.</td>
-					</tr>
-					<tr>
-						<td>/</td>
-						<td>0</td>
-						<td>1</td>
-						<td>2</td>
-						<td>3</td>
-						<td>4</td>
-						<td>5</td>
-						<td>6</td>
-						<td>7</td>
-						<td>8</td>
-						<td>9</td>
-						<td>:</td>
-						<td>;</td>
-						<td>&lt;</td>
-						<td>=</td>
-						<td>&gt;</td>
-					</tr>
-					<tr class="azu">
-						<td>/</td>
-						<td>0</td>
-						<td>1</td>
-						<td>2</td>
-						<td>3</td>
-						<td>4</td>
-						<td>5</td>
-						<td>6</td>
-						<td>7</td>
-						<td>8</td>
-						<td>9</td>
-						<td>:</td>
-						<td>;</td>
-						<td>&lt;</td>
-						<td>=</td>
-						<td>&gt;</td>
-					</tr>
-					<tr>
-						<td>?</td>
-						<td>@</td>
-						<td>A</td>
-						<td>B</td>
-						<td>C</td>
-						<td>D</td>
-						<td>E</td>
-						<td>F</td>
-						<td>G</td>
-						<td>H</td>
-						<td>I</td>
-						<td>J</td>
-						<td>K</td>
-						<td>L</td>
-						<td>M</td>
-						<td>N</td>
-					</tr>
-					<tr class="azu">
-						<td>?</td>
-						<td>@</td>
-						<td>A</td>
-						<td>B</td>
-						<td>C</td>
-						<td>D</td>
-						<td>E</td>
-						<td>F</td>
-						<td>G</td>
-						<td>H</td>
-						<td>I</td>
-						<td>J</td>
-						<td>K</td>
-						<td>L</td>
-						<td>M</td>
-						<td>N</td>
-					</tr>
-					<tr>
-						<td>O</td>
-						<td>P</td>
-						<td>Q</td>
-						<td>R</td>
-						<td>S</td>
-						<td>T</td>
-						<td>U</td>
-						<td>V</td>
-						<td>W</td>
-						<td>X</td>
-						<td>Y</td>
-						<td>Z</td>
-						<td>[</td>
-						<td>\</td>
-						<td>]</td>
-						<td>^</td>
-					</tr>
-					<tr class="azu">
-						<td>O</td>
-						<td>P</td>
-						<td>Q</td>
-						<td>R</td>
-						<td>S</td>
-						<td>T</td>
-						<td>U</td>
-						<td>V</td>
-						<td>W</td>
-						<td>X</td>
-						<td>Y</td>
-						<td>Z</td>
-						<td>[</td>
-						<td>\</td>
-						<td>]</td>
-						<td>^</td>
-					</tr>
-					<tr>
-						<td>_</td>
-						<td>`</td>
-						<td>a</td>
-						<td>b</td>
-						<td>c</td>
-						<td>d</td>
-						<td>e</td>
-						<td>f</td>
-						<td>g</td>
-						<td>h</td>
-						<td>i</td>
-						<td>j</td>
-						<td>k</td>
-						<td>l</td>
-						<td>m</td>
-						<td>n</td>
-					</tr>
-					<tr class="azu">
-						<td>_</td>
-						<td>`</td>
-						<td>a</td>
-						<td>b</td>
-						<td>c</td>
-						<td>d</td>
-						<td>e</td>
-						<td>f</td>
-						<td>g</td>
-						<td>h</td>
-						<td>i</td>
-						<td>j</td>
-						<td>k</td>
-						<td>l</td>
-						<td>m</td>
-						<td>n</td>
-					</tr>
-					<tr>
-						<td>o</td>
-						<td>p</td>
-						<td>q</td>
-						<td>r</td>
-						<td>s</td>
-						<td>t</td>
-						<td>u</td>
-						<td>v</td>
-						<td>w</td>
-						<td>x</td>
-						<td>y</td>
-						<td>z</td>
-						<td>{</td>
-						<td>|</td>
-						<td>}</td>
-						<td>~</td>
-					</tr>
-					<tr class="azu">
-						<td>o</td>
-						<td>p</td>
-						<td>q</td>
-						<td>r</td>
-						<td>s</td>
-						<td>t</td>
-						<td>u</td>
-						<td>v</td>
-						<td>w</td>
-						<td>x</td>
-						<td>y</td>
-						<td>z</td>
-						<td>{</td>
-						<td>|</td>
-						<td>}</td>
-						<td>~</td>
-					</tr>
+					<tr class="azu"><td><pre> </pre></td><td>!</td><td>"</td><td>#</td><td>$</td><td>%</td><td>&</td><td>'</td><td>(</td><td>)</td><td>*</td><td>+</td><td>,</td><td>-</td><td>.</td><td>/</td></tr>
+					<tr><td>Space</td><td>!</td><td>"</td><td>#</td><td>$</td><td>%</td><td>&</td><td>'</td><td>(</td><td>)</td><td>*</td><td>+</td><td>,</td><td>-</td><td>.</td><td>/</td></tr>
+					<tr class="azu"><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>:</td><td>;</td><td>&lt;</td><td>=</td><td>&gt;</td><td>?</td></tr>
+					<tr><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>:</td><td>;</td><td>&lt;</td><td>=</td><td>&gt;</td><td>?</td></tr>
+					<tr class="azu"><td>@</td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>I</td><td>J</td><td>K</td><td>L</td><td>M</td><td>N</td><td>O</td></tr>
+					<tr><td>@</td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>I</td><td>J</td><td>K</td><td>L</td><td>M</td><td>N</td><td>O</td></tr>
+					<tr class="azu"><td>P</td><td>Q</td><td>R</td><td>S</td><td>T</td><td>U</td><td>V</td><td>W</td><td>X</td><td>Y</td><td>Z</td><td>[</td><td>\</td><td>]</td><td>^</td><td>_</td></tr>
+					<tr><td>P</td><td>Q</td><td>R</td><td>S</td><td>T</td><td>U</td><td>V</td><td>W</td><td>X</td><td>Y</td><td>Z</td><td>[</td><td>\</td><td>]</td><td>^</td><td>_</td></tr>
+					<tr class="azu"><td>`</td><td>a</td><td>b</td><td>c</td><td>d</td><td>e</td><td>f</td><td>g</td><td>h</td><td>i</td><td>j</td><td>k</td><td>l</td><td>m</td><td>n</td><td>o</td></tr>
+					<tr><td>`</td><td>a</td><td>b</td><td>c</td><td>d</td><td>e</td><td>f</td><td>g</td><td>h</td><td>i</td><td>j</td><td>k</td><td>l</td><td>m</td><td>n</td><td>o</td></tr>
+					<tr class="azu"><td>p</td><td>q</td><td>r</td><td>s</td><td>t</td><td>u</td><td>v</td><td>w</td><td>x</td><td>y</td><td>z</td><td>{</td><td>|</td><td>}</td><td>~</td><td>藍</td></tr>
+					<tr><td>p</td><td>q</td><td>r</td><td>s</td><td>t</td><td>u</td><td>v</td><td>w</td><td>x</td><td>y</td><td>z</td><td>{</td><td>|</td><td>}</td><td>~</td><td>藍</td></tr>
 				</table>
 			</div>
-		</div>
 
-	</body>
+			<div class="box">
+				<h2>License</h2>
+				<p class="en">These fonts are free software. </p>
+				<p class="en">Unlimited permission is granted to use, copy, and distribute them, with or without modification, either commercially or noncommercially. </p>
+				<p class="en">THESE FONTS ARE PROVIDED "AS IS" WITHOUT WARRANTY.</p>
+				<p class="ja">これらのフォントはフリー（自由な）ソフトウエアです。 </p>
+				<p class="ja">あらゆる改変の有無に関わらず、また商業的な利用であっても、自由にご利用、複製、再配布することができますが、全て無保証とさせていただきます。</p>
+			</div>
+
+		</article>
+		<footer><small>Copyright &copy; 2014 Hiroki All Rights Reserved.<small></footer>
+	</div>
+</body>
 </html>

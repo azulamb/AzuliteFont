@@ -6,13 +6,125 @@
 	url('https://github.com/HirokiMiyaoka/AzuliteFont/blob/master/AzuliteFont.ttf?raw=true') format('truetype');
 }
 
-body, html {
+@font-face {
+    font-family: 'M+2cL';
+    src: url('./fonts/mplus-2c-light-sub.eot');
+    src: url('./fonts/mplus-2c-light-sub.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/mplus-2c-light-sub.woff') format('woff'),
+    url('./fonts/mplus-2c-light-sub.ttf') format('truetype');
+}
+
+html, body {
 	margin: 0px;
 	padding; 0px;
+	height: 100%;
+	background-color: #165e83;
+	color: #17184b;
+	font-size: 30px;
+	font-family: 'M+2cL';
+}
+
+header {
+	height: 80px;
+	background-color: #0094c8;
+	position: relative;
+}
+
+span {
+	font-family: 'AzuliteFont';
+}
+
+a {
+	color: #165e83;
+}
+
+p {
+	margin: 10px;
+}
+
+.ja {
+	display: none;
+}
+
+h1 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 40px;
+	margin: 10px;
+	text-align: center;
+}
+
+
+article {
+	padding-bottom: 40px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+	background-color: #223a70;
+	color: #f8fbf8;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+}
+
+pre {
+	padding: 0px;
+	margin: 0px;
+}
+
+div.main {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	position: relative;
+	height:auto !important;
+	height: 100%;
+	min-height: 100%;
+}
+
+div.box {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	background-color: #f8fbf8;
+	width: 800px;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+table {
+	border-collapse: collapse;
+	border: 0px;
+	border-radius: 10px;
+}
+
+td {
+	text-align: center;
+	width: 50px;
+	font-size: 12px;
+	padding: 0px;
+	background-color: #bbc8e6;
 }
 
 tr.azu td{
 	font-family: 'AzuliteFont';
+	font-size: 50px;
+	background-color: #f8fbf8;
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
+}
+
+a#lang {
+	position: absolute;
+	right: 20px;
+	top: 5px;
 }
 
 /*.clearfix {width:100%;}*/
