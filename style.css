@@ -19,9 +19,10 @@ html, body {
 	padding; 0px;
 	height: 100%;
 	background-color: #165e83;
-	color: #17184b;
+	color: #0f2350;
 	font-size: 30px;
 	font-family: 'M+2cL';
+	text-shadow: 0px 0px 1px #0f2350;
 }
 
 header {
@@ -124,7 +125,7 @@ tr.azu td{
 a#lang {
 	position: absolute;
 	right: 20px;
-	top: 5px;
+	top: 15px;
 }
 
 /*.clearfix {width:100%;}*/
