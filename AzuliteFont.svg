@@ -31,7 +31,8 @@
       <glyph
          glyph-name="Space"
          id="glyph3757"
-         unicode=" " />
+         unicode=" "
+         horiz-adv-x="500" />
       <glyph
          glyph-name="!"
          id="glyph3759"
