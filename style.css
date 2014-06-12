@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'AzuliteFont';
+	src: url('https://github.com/HirokiMiyaoka/AzuliteFont/blob/master/AzuliteFont.eot?raw=true');
+	src: url('https://github.com/HirokiMiyaoka/AzuliteFont/blob/master/AzuliteFont.eot?raw=true#iefix') format('embedded-opentype'),
+	url('https://github.com/HirokiMiyaoka/AzuliteFont/blob/master/AzuliteFont.woff?raw=true') format('woff'),
+	url('https://github.com/HirokiMiyaoka/AzuliteFont/blob/master/AzuliteFont.ttf?raw=true') format('truetype');
+}
+
+body, html {
+	margin: 0px;
+	padding; 0px;
+}
+
+tr.azu td{
+	font-family: 'AzuliteFont';
+}
+
+/*.clearfix {width:100%;}*/
+.clearfix:after {
+  content: ""; 
+  display: block; 
+  clear: both;
+}
