@@ -120,6 +120,7 @@ tr.azu td{
 	height: 50px;
 	width: 50px;
 	overflow: hidden;
+	text-shadow: none;
 }
 
 a#lang {
@@ -128,9 +129,39 @@ a#lang {
 	top: 15px;
 }
 
-/*.clearfix {width:100%;}*/
-.clearfix:after {
-  content: ""; 
-  display: block; 
-  clear: both;
+ul.fontlist {
+	padding: 0px;
+	margin: 0px;
+}
+ul.fontlist:after {
+	content: ""; 
+	display: block; 
+	clear: both;
+}
+
+ul.fontlist li {
+	width: 50px;
+	height: 68px;
+	float: left;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.azu {
+	font-family: 'AzuliteFont';
+	font-size: 50px;
+	background-color: #f8fbf8;
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
+	text-shadow: none;
+}
+
+div.name {
+	text-align: center;
+	width: 50px;
+	font-size: 12px;
+	padding: 0px;
+	background-color: #bbc8e6;
 }
