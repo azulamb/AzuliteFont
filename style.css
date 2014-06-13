@@ -19,15 +19,17 @@ html, body {
 	padding; 0px;
 	height: 100%;
 	background-color: #165e83;
-	color: #0f2350;
 	font-size: 30px;
 	font-family: 'M+2cL';
+	color: #0f2350;
 	text-shadow: 0px 0px 0.5px #0f2350;
 }
 
 header {
 	height: 80px;
 	background-color: #0094c8;
+	color: #f8fbf8;
+	text-shadow: 0px 0px 0.5px #f8fbf8;
 	position: relative;
 }
 
@@ -37,6 +39,11 @@ span {
 
 a {
 	color: #165e83;
+}
+
+header a {
+	color: #f8fbf8;
+	text-shadow: 0px 0px 0.5px #f8fbf8;
 }
 
 p {
