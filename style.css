@@ -85,6 +85,8 @@ footer {
 pre {
 	padding: 0px;
 	margin: 0px;
+	background-color: #ebf6f7;
+	display: inline;
 }
 
 div.main {
@@ -104,30 +106,6 @@ div.box {
 	width: 800px;
 	padding: 20px;
 	margin: 20px auto;
-}
-
-table {
-	border-collapse: collapse;
-	border: 0px;
-	border-radius: 10px;
-}
-
-td {
-	text-align: center;
-	width: 50px;
-	font-size: 12px;
-	padding: 0px;
-	background-color: #bbc8e6;
-}
-
-tr.azu td{
-	font-family: 'AzuliteFont';
-	font-size: 50px;
-	background-color: #f8fbf8;
-	height: 50px;
-	width: 50px;
-	overflow: hidden;
-	text-shadow: none;
 }
 
 a#lang {
@@ -163,6 +141,7 @@ div.azu {
 	width: 50px;
 	overflow: hidden;
 	text-shadow: none;
+	text-align: center;
 }
 
 div.name {
